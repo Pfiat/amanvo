@@ -1,15 +1,13 @@
-import React from "react";
-import Header from "../components/Header";
-function App() {
-  return (
-    <div className="App">
-      <Header></Header>
-      <h1>TESKSKKSKSKSKSKKSKkkJETO</h1>
-    
+import React from 'react';
+import Header from './Header';
 
+function Page() {
+  return (
+    <div>
+      <Header />
+      {/* Conteúdo da página */}
     </div>
-  
   );
 }
 
-export default App;
+export default Page;

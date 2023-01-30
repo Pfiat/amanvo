@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './Header';
 
-function Page() {
+function HomePage() {
   return (
     <div>
       <Header />
-      {/* Conteúdo da página */}
+      {<h1>HOMEEE PAGE</h1>}
     </div>
   );
 }
 
-export default Page;
+export default HomePage;
